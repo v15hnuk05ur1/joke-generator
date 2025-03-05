@@ -42,41 +42,20 @@ A web application that generates safe, appropriate jokes using Large Language Mo
 - Google Gemini API key
 - pip package manager
 
-### Installation
-```bash
-# Clone repository
-git clone https://github.com/your-username/joke-generator.git
-cd joke-generator
+ ### API Configuration 🔑
 
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+    1.Obtain API key from Google AI Studio
+    2.Create .env file in project root:
 
-# Install dependencies
-pip install -r requirements.txt
-
-API Configuration 🔑
-
-    Obtain API key from Google AI Studio
-
-    Create .env file in project root:
-
-env
-Copy
-
-GEMINI_API_KEY=your_actual_key_here
-
-    Never commit sensitive information to version control
+    GEMINI_API_KEY=your_actual_key_here
 
 Running the Application 🚀
-bash
-Copy
-
-python app.py
+    
+    python app.py
 
 Access via: http://localhost:5000
-Deployment ☁️
 
+Deployment ☁️
 Supported platforms:
 
     Render: Python Web Service
@@ -99,3 +78,18 @@ Multi-layer content protection:
     Server-side content checks
 
     Rate limiting (client-side)
+### Installation
+```bash
+# Clone repository
+git clone https://github.com/your-username/joke-generator.git
+cd joke-generator
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+
+
