@@ -1,4 +1,4 @@
-# Jester: AI-Powered Joke Generator 🤖😂
+# AI-Powered Joke Generator 🤖😂
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-3.0%2B-lightgrey.svg)](https://flask.palletsprojects.com/)
