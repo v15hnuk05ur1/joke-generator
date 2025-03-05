@@ -6,7 +6,6 @@
 
 A web application that generates family-friendly jokes using Google's Gemini AI, ensuring content is appropriate for all audiences.
 
-**Live Demo**: [jester-ai.com](https://your-deployment-link.com) (Replace with actual link)
 
 ![Joke Generator Interface](screenshot.png) <!-- Add actual screenshot -->
 
