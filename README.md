@@ -54,3 +54,48 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+
+API Configuration 🔑
+
+    Obtain API key from Google AI Studio
+
+    Create .env file in project root:
+
+env
+Copy
+
+GEMINI_API_KEY=your_actual_key_here
+
+    Never commit sensitive information to version control
+
+Running the Application 🚀
+bash
+Copy
+
+python app.py
+
+Access via: http://localhost:5000
+Deployment ☁️
+
+Supported platforms:
+
+    Render: Python Web Service
+
+    PythonAnywhere: Flask configuration
+
+    Heroku: Add Procfile with Gunicorn
+
+Ensure environment variables are configured in your hosting platform.
+Safety Measures 🔒
+
+Multi-layer content protection:
+
+    Explicit prompt engineering
+
+    Model-level safety filters
+
+    Client-side validation
+
+    Server-side content checks
+
+    Rate limiting (client-side)
