@@ -1,13 +1,14 @@
-# AI-Powered Joke Generator 🤖😂
+# AI-Powered Family-Friendly Joke Generator 🤖😂
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-3.0%2B-lightgrey.svg)](https://flask.palletsprojects.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-A web application that generates family-friendly jokes using Google's Gemini AI, ensuring content is appropriate for all audiences.
+A web application that generates safe, appropriate jokes using Large Language Models (LLMs), with content filtering for all audiences.
 
 
-![Joke Generator Interface](screenshot.png) <!-- Add actual screenshot -->
+
+![Application Interface](screenshot.png) <!-- Add screenshot -->
 
 ## Table of Contents
 - [Features](#features)
@@ -15,22 +16,23 @@ A web application that generates family-friendly jokes using Google's Gemini AI,
 - [Setup Instructions](#setup-instructions)
 - [API Configuration](#api-configuration)
 - [Deployment](#deployment)
+- [Safety Measures](#safety-measures)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Features ✨
-- 🧠 AI-powered joke generation using Google Gemini
-- 👪 Family-friendly content filtering
-- 📱 Responsive web design
-- ⏳ Real-time loading animations
-- 🛠️ Error handling and validation
-- 🔒 Secure API key management
+- 🧠 LLM-powered joke generation (Google Gemini)
+- 👨👩👧👦 Strict content filtering system
+- 📱 Responsive web interface
+- ⏳ Interactive loading states
+- 🛠️ Comprehensive error handling
+- 🔐 Secure environment management
 
 ## Technology Stack 🛠️
-- **Backend**: Python Flask
-- **AI Model**: Google Gemini API
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Security**: Environment variable management
+- **Backend Framework**: Python Flask
+- **AI Engine**: Google Gemini API
+- **Frontend**: Vanilla JS + CSS3
+- **Security**: Dotenv configuration
 - **Packaging**: pip/PyPI
 
 ## Setup Instructions 📦
@@ -43,12 +45,12 @@ A web application that generates family-friendly jokes using Google's Gemini AI,
 ### Installation
 ```bash
 # Clone repository
-git clone https://github.com/your-username/jester-ai-joke-generator.git
-cd jester-ai-joke-generator
+git clone https://github.com/your-username/joke-generator.git
+cd joke-generator
 
 # Create virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  # Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
